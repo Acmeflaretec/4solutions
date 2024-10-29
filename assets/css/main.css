@@ -3105,4 +3105,83 @@ ul{
   padding:0 0 10px 15px;
 
 }
+/* index heropage */
 
+#hero-heading{
+  font-size: 60px;
+}
+#hero-heading-no{
+  font-size: 60px;
+  margin-left: 1rem;
+ 
+}
+#hero-subtitle{
+  font-size: 25px;
+  text-transform: lowercase;
+}
+#hero-subtitle1{
+  font-size: 17px;
+  text-transform: lowercase;
+  padding-bottom: 10px;
+}
+#vision-heading{
+
+ 
+  text-align: right;
+}
+.vision-content{
+  text-align: right;
+}
+#Mission-heading{
+text-align: left;
+
+}
+.Mission-content{
+  text-align: left;
+}
+
+@media screen and (max-width:700px) {
+
+  #hero-heading{
+  font-size: 40px;
+}
+#hero-heading-no{
+  font-size: 40px;
+
+ 
+}
+#vision-heading{
+
+  padding-bottom: 1rem; 
+  text-align: left;
+}
+.vision-content{
+  text-align: left;
+}
+
+}
+
+
+/* <div class="row gy-4 align-items-center features-item">
+<div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+  <img src="assets/img/hero6.jpg" class="img-fluid" alt="">
+</div>
+<div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+  <h3 style="margin: 0  0 2rem 0">	Our Vision</h3>
+  <h4 class="fst-italic">
+    “We aspire to be the standard of excellence and be one among the best choices for clients in providing hr solutions” </h4>
+ 
+</div>
+</div><!-- Features Item -->
+
+<div class="row gy-4 align-items-center features-item">
+<div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+  <img src="assets/img/hero5.jpg" class="img-fluid" alt="">
+</div>
+<div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
+  <h3 style="margin: 0  0 2rem 0">Our Mission</h3>
+  <h4 class="fst-italic">
+    “To support our clients achieve their business objectives by providing best-in-class consulting solutions”. </h4>
+ 
+</div>
+</div><!-- Features Item --> */

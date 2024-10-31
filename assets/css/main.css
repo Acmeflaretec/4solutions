@@ -3164,6 +3164,7 @@ text-align: left;
   margin: 0;
   /* background-color:#2f4d5a; */
   background-color: #cc1616;
+ 
 }
 .price-heading h3{
  text-align: center;
@@ -3179,7 +3180,11 @@ text-align: left;
   justify-content: space-around;
   flex-wrap: wrap;
   padding:1rem   ;
+ 
 
+}
+.price-content{
+ 
 }
 .price-content p{
   padding-top: 10px;
@@ -3190,11 +3195,15 @@ text-align: left;
 .price-list{
   margin-top: 10px;
 }
+
 .price-list li{
   margin-left: 20px;
   font-size: 15px;
-}
 
+}
+#small-screen{
+  display: none;
+}
 @media screen and (max-width:700px) {
 
   #hero-heading{
@@ -3213,11 +3222,24 @@ text-align: left;
 .vision-content{
   text-align: left;
 }
+.price-contents{
+ 
+  flex-direction:column;
+}
 #price{
   margin: 1rem;
 }
-.price-list li{
+.price-content{
+  padding: 0;
+  margin: 9;
+}
+#big-screen{
+  display: none;
+}
+#small-screen{
+  display:inline;
+}
+}
 
-  font-size: 12px;
-}
-}
+
+

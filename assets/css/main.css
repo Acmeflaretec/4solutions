@@ -3229,6 +3229,10 @@ text-align: left;
 #price{
   margin: 1rem;
 }
+.price-content p{
+  font-size: 15px;
+  font-weight: 500;
+}
 .price-content{
   padding: 0;
   margin: 9;

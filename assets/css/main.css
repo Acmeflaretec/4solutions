@@ -3147,7 +3147,9 @@ text-align: left;
 .service-items li{
   margin-left: 8px;
 }
-
+.service-card-subtitle{
+  font-size: 15px;
+}
 
 
 /* price */
